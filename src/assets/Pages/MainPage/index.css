@@ -1,0 +1,21 @@
+.main_page {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  /* background: url("./Background.jpg"); */
+}
+.main_page__section {
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .main_page__button { */
+/*   display: block; */
+/* } */
+button {
+  height: 40px;
+}
