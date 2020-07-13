@@ -1,0 +1,23 @@
+.btn {
+  padding: 10px 20px;
+  border: 1px solid white;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+.btn:hover span {
+  color: red;
+}
+.btn:hover {
+  border: 1px solid red;
+}
+
+.btn span {
+  color: white;
+  size: 20px;
+}
+.icon_download {
+  margin-left: 20px;
+}

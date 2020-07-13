@@ -1,0 +1,38 @@
+.social_links {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 15px;
+}
+.font {
+  color: white;
+  font-size: 40px;
+}
+.font:hover,
+.font:active {
+  color: red;
+  /* font-size: 45px; */
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 834px) {
+  .social_links {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .social_links {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .social_links {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .social_links {
+    width: 50%;
+  }
+}

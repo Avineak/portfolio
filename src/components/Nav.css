@@ -1,0 +1,23 @@
+.NavBar {
+  display: block;
+  width: 100%;
+}
+.NavBar ul {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.NavBar li {
+  list-style: none;
+  color: white;
+  font-weight: bold;
+}
+.NavBar .underline {
+  height: 2px;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+}

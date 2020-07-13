@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MainPage from "./assets/Pages/MainPage/index";
-import About from "./assets/Pages/About/index";
-import Project from "./assets/Pages/Project/index";
+import MainPage from "./Pages/MainPage/index";
+import About from "./Pages/About/index";
+import Project from "./Pages/Project/index";
+import Nav from "./components/Nav";
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Router>
         <Switch>
           <Route path="/" exact component={MainPage} />
