@@ -1,9 +1,10 @@
 import React from "react";
 import Avatar from "./elements/Avatar";
+import { Link } from "react-router-dom";
 import "./index.css";
+import fontStyle from "./index.module.css";
 import SocialMedia from "./components/SocialMedia";
 import Button from "../../components/Button";
-import { download } from "../../components/IconGroup";
 function index() {
   return (
     <div className="hero">
@@ -23,12 +24,8 @@ function index() {
             </p>
           </div>
           <SocialMedia />
-          <a
-            href="../../components/my_cv.pdf"
-            download
-            style={{ textDecoration: "none" }}
-          >
-            <Button icon={download}>Get my cv</Button>
+          <a href="../../components/my_cv.pdf" download>
+            <Button />
           </a>
         </div>
       </div>

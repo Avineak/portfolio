@@ -7,9 +7,6 @@
   margin: auto;
   margin-top: 10px;
 }
-.btn a {
-  text-decoration: none;
-}
 .btn:hover span {
   color: red;
 }
