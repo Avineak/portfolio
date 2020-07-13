@@ -1,0 +1,121 @@
+.card_container {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10px auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  height: 200px;
+}
+.card_body {
+  display: flex;
+  padding: 20px;
+}
+.card_container .img {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border: 1px solid white;
+}
+.card_desc {
+  margin: 10px;
+  width: calc(100% - 120px);
+  color: white;
+  flex-direction: column;
+  height: 60px;
+}
+.card_body .xtra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card_desc .desc_body {
+  height: 60px;
+}
+.icon_set .icon {
+  font-size: 20px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 859px) {
+  .card_container .img {
+    height: 90px;
+    width: 90px;
+  }
+  .card_desc {
+    height: 40px;
+    margin: 5px;
+  }
+  .card_body {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .card_body .xtra {
+    padding: 0px !important;
+    display: flex;
+  }
+}
+.xtra_container {
+  width: 100%;
+}
+@media only screen and (max-width: 816px) {
+  .card_container {
+    width: 95%;
+  }
+  .card_body {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 774px) {
+  .card_container {
+    width: 98%;
+    margin: 20px auto;
+  }
+  .card_body {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 752px) {
+  .card_container {
+    width: 98%;
+    margin: 20px auto;
+    height: 170px;
+  }
+  .card_body {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .card_container {
+    height: 350px;
+  }
+  .card_body {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .desc_body {
+    height: auto;
+  }
+  .card_body .xtra {
+    flex-direction: column;
+  }
+  .card_desc .desc_body {
+    height: auto;
+  }
+  .xtra .btn {
+    width: 60%;
+  }
+}

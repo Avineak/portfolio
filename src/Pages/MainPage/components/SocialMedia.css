@@ -5,6 +5,9 @@
   margin: auto;
   padding: 15px;
 }
+.social_links a {
+	text-decoration: none;
+}
 .font {
   color: white;
   font-size: 40px;
@@ -18,7 +21,7 @@
 
 @media only screen and (max-width: 834px) {
   .social_links {
-    width: 30%;
+    width: 35%;
   }
 }
 @media only screen and (max-width: 768px) {
