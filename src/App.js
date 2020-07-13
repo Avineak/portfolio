@@ -8,8 +8,8 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Router>
+        <Nav />
         <Switch>
           <Route path="/" exact component={MainPage} />
           <Route path="/about" component={About} />

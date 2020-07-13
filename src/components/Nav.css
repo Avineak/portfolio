@@ -14,10 +14,37 @@
   color: white;
   font-weight: bold;
 }
+.NavBar .link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.link:hover {
+  color: red;
+}
 .NavBar .underline {
   height: 2px;
   width: 80%;
   background-color: white;
   margin: auto;
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 568px) {
+  .NavBar ul {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .NavBar ul {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .NavBar ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .underline {
+    width: 100%;
+  }
 }

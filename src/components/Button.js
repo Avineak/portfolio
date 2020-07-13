@@ -1,13 +1,12 @@
 import React from "react";
 import "./Button.css";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Button(props) {
   return (
-    <div className="btn">
+    <div className="btn" style={props.styler}>
       <span>
-        Get my CV
-        <FontAwesomeIcon className="icon_download" icon={faDownload} />
+        {props.children}
+        <FontAwesomeIcon className="icon_download" icon={props.icon} />
       </span>
     </div>
   );
