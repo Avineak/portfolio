@@ -16,11 +16,11 @@ function Nav() {
             Projects
           </Link>
         </li>
-        <li>
-          <Link className="link" to="/dotfiles">
-            My Dotfiles
-          </Link>
-        </li>
+        {/* <li> */}
+        {/*   <Link className="link" to="/dotfiles"> */}
+        {/*     My Dotfiles */}
+        {/*   </Link> */}
+        {/* </li> */}
         {/* <li> */}
         {/*   <Link className="link" to="/about"> */}
         {/*     About */}

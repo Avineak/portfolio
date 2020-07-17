@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MainPage from "./Pages/MainPage/index";
 import About from "./Pages/About/index";
 import Project from "./Pages/Project/index";
-import Dotfiles from "./Pages/DotFiles/Dotfiles";
 
 import Nav from "./components/Nav";
 function App() {
