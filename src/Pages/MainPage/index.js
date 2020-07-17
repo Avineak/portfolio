@@ -24,7 +24,7 @@ function index() {
           </div>
           <SocialMedia />
           <a
-            href="../../components/my_cv.pdf"
+            href="https://drive.google.com/u/0/uc?id=1mTFemPKu93GPKsDQq2R_ze_hmzhvIaRF&export=download"
             download
             style={{ textDecoration: "none" }}
           >
